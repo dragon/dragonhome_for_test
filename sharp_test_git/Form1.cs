@@ -20,6 +20,9 @@ namespace sharp_test_git
         private void button1_Click(object sender, EventArgs e)
         {
             Text = "Test";
+            int a = 67;
+            var b = a * 8;
+            Text = b.ToString();
         }
     }
 }
