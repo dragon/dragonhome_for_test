@@ -24,7 +24,8 @@ namespace sharp_test_git
             var b = a * 8;
             b += 12;
             Text = b.ToString();
-
+            // Изменения
+            Text = "Русский текст";
         }
     }
 }
