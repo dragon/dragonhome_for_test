@@ -22,7 +22,9 @@ namespace sharp_test_git
             Text = "Test";
             int a = 67;
             var b = a * 8;
+            b += 12;
             Text = b.ToString();
+
         }
     }
 }
